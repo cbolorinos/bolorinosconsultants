@@ -1,13 +1,13 @@
 :root {
-  --color-primary: #5E72EB;
-  --color-secondary: #FF9190;
-  --color-gradient-start: #120C6E;
-  --color-gradient-stop: #FDC094;
+  --color-primary: #fd7250;
+  --color-secondary: #2ed47c;
+  --color-gradient-start: #fd7250;
+  --color-gradient-stop: #fd7250;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 400;
   line-height: 1.5;
   font-size: 18px;
   color: #808291;
@@ -19,8 +19,8 @@ body {
 .h4, h4,
 .h5, h5,
 .h6, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-family: 'Glacial Indifference', sans-serif;
+  font-weight: 700;
   color: #181b31;
 }
 
@@ -58,7 +58,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: #120C6E;
+  color: rgba(255, 255, 255, 0.75);
   text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@ body {
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: #5E72EB;
+  color: #fff;
 }
 
 .main-nav > li > a .link-ext {
@@ -79,17 +79,4 @@ body {
 
 .main-footer a:not(.btn):hover {
   color: #000;
-}
-#services {
-  margin-top: 30px;
-  background: rgb(255,145,144);
-  background: linear-gradient(56deg, rgba(255,145,144,1) 0%, rgba(94,114,235,1) 100%);
-}
-.off-white{
-  background-color: rgba(255,255,255,0.95);
-  box-shadow: -10px 0px 30px 1px rgba(255,255,255,0.95), 10px 0px 30px 1px white;
-}
-.btn-solid.color-secondary {
-  background: rgb(253,192,148);
-  background: linear-gradient(56deg, rgba(253,192,148,1) 0%, rgba(255,145,144,1) 100%);
 }
